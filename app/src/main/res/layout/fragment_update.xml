@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".UpdateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                style="@android:style/Widget.TextView.PopupMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="UPDATE Detail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#020725"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+
+
+
+
+            <EditText
+                android:id="@+id/etfirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:hint= "Name*" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Rollno"
+                android:id="@+id/etmid"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Gender:-"
+                android:layout_marginTop="15dp"
+
+                android:id="@+id/etgen2"/>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+android:layout_alignParentRight="true"
+                android:id="@+id/etgen"
+
+
+                android:layout_marginLeft="10dp"/>
+            </RelativeLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Branch:-"
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/etbranch2"/>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+                    android:id="@+id/etbranch"
+
+
+                    android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="StudentId"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etlast"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="CGPA"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/etdob"/>
+
+
+
+            </RelativeLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email*"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etemail"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Registered Contact*"
+
+
+
+                android:layout_marginTop="15dp"
+                android:id="@+id/contact"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="UID*"
+                android:layout_marginTop="15dp"
+                android:id="@+id/uid"/>
+
+            <Button
+                android:id="@+id/btsave"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="#08420A"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="UPDATE"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Activity completed soon "
+/>
+
+</LinearLayout>

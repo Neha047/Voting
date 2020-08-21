@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "37302471522",
+    "firebase_url": "https://tourismproject-2a7b6.firebaseio.com",
+    "project_id": "tourismproject-2a7b6",
+    "storage_bucket": "tourismproject-2a7b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37302471522:android:f5e135f6ba297251",
+        "android_client_info": {
+          "package_name": "com.example.haryanatourisms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37302471522-lmfdoaqo4hsbqvahah187mjhs3vs5s7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haryanatourisms",
+            "certificate_hash": "48cc356309a29734619af2417fe8715c20c799e4"
+          }
+        },
+        {
+          "client_id": "37302471522-ql7aje916eka2trgnujilk3mlr360sa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMY6aRoOF5M42OcgAFJOe68wVHbaUw1-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37302471522-ql7aje916eka2trgnujilk3mlr360sa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37302471522:android:d21954b3dbad4e2b98fa3b",
+        "android_client_info": {
+          "package_name": "com.example.votingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37302471522-hp3h345ka01d4e0b2arr60jmrmug1ik2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.votingapp",
+            "certificate_hash": "48cc356309a29734619af2417fe8715c20c799e4"
+          }
+        },
+        {
+          "client_id": "37302471522-ql7aje916eka2trgnujilk3mlr360sa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMY6aRoOF5M42OcgAFJOe68wVHbaUw1-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37302471522-ql7aje916eka2trgnujilk3mlr360sa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+
+    tools:context=".DetailsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                style="@android:style/Widget.TextView.PopupMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="User Detail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+
+
+
+
+                <EditText
+                    android:id="@+id/etfirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint= "Name*" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Rollno"
+                    android:id="@+id/etmid"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="gender"
+                android:id="@+id/etgen"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Branch"
+                android:id="@+id/etbranch1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"/>
+
+           <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/etbranch"
+
+
+                android:layout_marginLeft="10dp"/>
+
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="StudentId"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etlast"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="CGPA"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/etdob"/>
+
+
+
+            </RelativeLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email*"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etemail"/>
+           <!-- <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Registered Contact*"
+                android:layout_marginTop="15dp"
+                android:id="@+id/contact"/>
+                -->
+
+            <Button
+                android:id="@+id/btsave"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="#031638"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Save"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
